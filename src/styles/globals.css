@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #1b1919;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #221f1f;
+    --foreground: #ededed;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* src/styles/globals.css */
+.bg-hero-image {
+  background-image: url('/images/hero-image.jpg'); /* Asegúrate de que la ruta sea correcta */
+  background-size: cover;
+  background-position: center;
+}
+
+.leaflet-control-attribution {
+  display: none;
+}

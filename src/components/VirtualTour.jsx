@@ -89,7 +89,7 @@ const VirtualTour = () => {
       <h2 className="text-2xl md:text-4xl font-extrabold text-center mb-8">
         {t.title}
       </h2>
-      <p className="text-base md:text-xl text-center pb-10 mx-32">
+      <p className="text-sm sm:text-base md:text-xl text-center pb-10 md:mx-32">
         {t.description}
       </p>
 
